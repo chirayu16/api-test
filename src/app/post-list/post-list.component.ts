@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';import e from 'express';
+import { Component, OnInit } from '@angular/core';
 import { PostService } from '../post.service';
 import { error } from 'console';
 import { CommonModule } from '@angular/common';
+import { tap } from 'rxjs';
 
 @Component({
   selector: 'app-post-list',
